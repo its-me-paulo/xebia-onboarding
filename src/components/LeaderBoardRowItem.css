@@ -1,0 +1,6 @@
+.leader-row-item {
+    text-align: center;
+    color: var(--main-color);
+    font-family: Helvetica;
+    padding: 5px;
+}

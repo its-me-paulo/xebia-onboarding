@@ -1,0 +1,16 @@
+:root {
+    --main-color: #7C5D95;
+    --main-text-color: #F2F6F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
