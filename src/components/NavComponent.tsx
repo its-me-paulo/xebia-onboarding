@@ -22,16 +22,8 @@ export function NavComponent(props: INavComponentProps) {
                         </NavLink>
                     </div>
                 </div>
-                <div id="nav-divider"></div>
-                <div className="nav-header">
-                    <h3>Leader Board</h3>
-                </div>
             </nav>
-            <div className="card">
-                <Card elevation={2} style={{ height: "100%" }}>
-                    <Outlet />
-                </Card>
-            </div>
+            <Outlet />
         </>
     );
 }

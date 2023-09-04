@@ -1,11 +1,11 @@
 nav {
     background-color: var(--main-color);
-    height: 15vh;
+    height: 8vh;
     width: 100vw;
 }
 
 h1, h3 {
-    font-family:    Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 10px;
     padding-bottom: 0;
     color: var(--main-text-color);
@@ -24,17 +24,10 @@ h3 {
     margin: 10px;
     margin-bottom: 0;
 }
-
-Button {
+  
+.button-container Button {
     width: 100%;
 } 
-
-#nav-divider {
-    width: 100%;
-    margin-top: 10px;
-    height: 1vh;
-    background-color: white;
-}
 
 .nav-row {
     width: 100%;
@@ -49,3 +42,8 @@ Button {
     padding: 10px;    
 }
 
+.card {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
