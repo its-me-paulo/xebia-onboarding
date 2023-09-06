@@ -1,0 +1,17 @@
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+}
+
+#onboarding-page {
+    width: 100vw;
+    height: 90vh;
+    /* background-image: url("../../public/entry.webp"); */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}

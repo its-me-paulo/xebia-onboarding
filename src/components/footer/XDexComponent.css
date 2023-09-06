@@ -1,0 +1,22 @@
+#reader-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reader{
+    width: 40vw;
+    height: 70vh;
+}
+
+#xDex {
+    width: 50%;
+    background-color: blueviolet;
+    height: 10vh;
+    margin: auto;
+}

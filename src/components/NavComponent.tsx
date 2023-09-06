@@ -1,8 +1,6 @@
-import * as React from 'react';
-import './NavComponent.css';
 import { Button } from '@mui/material';
 import { NavLink, Outlet } from 'react-router-dom';
-import { Card } from "@mui/material";
+import './NavComponent.css';
 
 export interface INavComponentProps {
 }

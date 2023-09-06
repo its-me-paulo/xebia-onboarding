@@ -4,6 +4,7 @@ import { LeaderBoard } from "./pages/LeaderBoard";
 import { NavComponent } from "./components/NavComponent";
 import './Application.css'
 import { ReadyPlayerApp } from "./pages/ReadyPlayer";
+import { ChallengePage } from "./pages/ChallengePage";
 
 function Application(props: any) {
     return <BrowserRouter>
@@ -12,7 +13,8 @@ function Application(props: any) {
                     <Route path="" element={<LeaderBoard />} />
                     <Route path="team-setup" element={<TeamSetupPage />} />
                 </Route>
-                <Route path="ready-player-app" element={<ReadyPlayerApp />}></Route>
+                <Route path="ready-player-app" element={<ReadyPlayerApp />} />
+                <Route path="challenge" element={<ChallengePage />} />
         </Routes>
 
     </BrowserRouter>;
